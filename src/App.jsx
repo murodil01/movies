@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import MovieList from "./components/MovieList";
 
 const App = () => {
@@ -9,5 +9,17 @@ const App = () => {
     </div>
   );
 };
+
+export default App;*/
+import React from "react";
+import PostList from "./components/PostList";
+
+function App() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-200">
+      <PostList />
+    </div>
+  );
+}
 
 export default App;
